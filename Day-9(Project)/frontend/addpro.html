@@ -12,7 +12,7 @@
 
        <!-- navigation   -->
 
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav class="navbar navbar-expand-lg navbar-grey bg-dark">
         <a class="navbar-brand" href="#">Supermarket</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="admin.html">All Products<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="supermarket.html">All Products<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="addproduct.html">Add Product</a>
+              <a class="nav-link" href="addpro.html">Add Product</a>
             </li>
            
            
@@ -36,31 +36,32 @@
 
         <h2>Add New Product</h2>
 
-        <div id="message" style="margin-top:30px;margin-bottom:30px;"></div>
-
-        <form id="addform">
+        <form>
 
             <div class="form-group">
                 <input class="form-control" id="id" type="number" placeholder="Id"/>
             </div>
             <div class="form-group">
                 <input class="form-control" id="name" type="text" placeholder="Name"/>
+                <div class="error" id="nameError"></div>
             </div>
             <div class="form-group">
                 <input class="form-control" id="description" type="text" placeholder="description"/>
             </div>
             <div class="form-group">
                 <input class="form-control" id="price" type="text" placeholder="Price"/>
+                <div class="error" id="priceError"></div>
             </div>
             <div class="form-group">
                 <input class="form-control" id="rating" type="text" placeholder="Rating"/>
+                <div class="error" id="rateError"></div>
             </div>
             <div class="form-group">
                 <input class="form-control" id="type" type="text" placeholder="Type"/>
+                
             </div>
             <div class="form-group">
                 <button class="btn btn-success" type="button" onclick="createProduct()">Add Product</button>
-                <button class="btn btn-danger" type="reset">Clear Form</button>
             </div>
 
         </form>
@@ -70,7 +71,7 @@
         
 
       </div>  
-
-    <script src="addproduct.js"></script>
+      <script src="formv.js"></script>
+    <script src="addpro.js"></script>
 </body>
 </html>

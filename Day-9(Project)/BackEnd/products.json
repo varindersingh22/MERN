@@ -1,5 +1,0 @@
-[{"id":1,"title":"Dairy Milk","type":"sweets","description":"Sweet chocolate","filename":"3.jpg","price":"95","rating":4,"rating_count":1,"emoji":"🍫"},
-    {"id":"2","title":"Pepsi","description":"Cold Drink","price":"20","rating":3,"rating_count":1,"type":"Juice","emoji":"🥤"},
-    {"id":"3","title":"Green Lays","description":"Tasty Chips","price":"20","rating":"4","rating_count":"1","type":"Snacks","emoji":"🍟"},
-    {"id":"4","title":"Candies","description":"Tasty sweets","price":"5","rating":"2","rating_count":"1","type":"Sweets","emoji":"🍬"}
-]
