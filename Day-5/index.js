@@ -67,9 +67,9 @@ const server=http.createServer((req,res)=>{
                 heros.forEach((ele)=>{
                     if(ele.id==id){
                         ele.name=heros.name;
-                        ele.powers=heros.powers;
-                        ele.rank=heros.rank;
-                        ele.img=heros.img;
+                        ele.weapons=heros.weapons;
+                        ele.age=heros.age;
+                        ele.planet=heros.planet;
                     }
                     
                 })

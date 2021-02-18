@@ -1,72 +1,35 @@
 [{
     "id":1,
     "name":"Ironman",
-    "powers":"Intelligence",
-    "Rank":"Legend",
-    "img":"./images/ironman.jpg"
+    "weapons":"Intelligence",
+    "Age":40,
+    "planet":"Earth"
 },
 {
     "id":2,
     "name":"Spiderman",
-    "powers":"Spider-powers",
-    "Rank":"New-Avenger",
-    "img":"./images/spidy.jpeg"
+    "weapons":"Spider-powers",
+    "Age":20,
+    "planet":"Earth"
 },
 {
     "id":3,
     "name":"Captain America",
-    "powers":"Super-Solider",
-    "Rank":"Legend",
-    "img":"./images/captain.jpg"
+    "weapons":"Super-Solider",
+    "Age":120,
+    "planet":"Earth"
 },
 {
     "id":4,
     "name":"Thor",
-    "powers":"God of Thunder",
-    "Rank":"Legend",
-    "img":"./images/thor.jpeg"
+    "weapons":"God of Thunder",
+    "Age":1500,
+    "planet":"Asgard"
 },
 {
     "id":5,
     "name":"Falcon",
-    "powers":"Solider & Armour",
-    "Rank":"New-Avenger",
-    "img":"./images/falcon.jpg"
-},
-{
-    "id":6,
-    "name":"Dr.Strange",
-    "powers":"Sorcerer Supreme",
-    "Rank":"Legend",
-    "img":"./images/strange.jpg"
-},
-{
-    "id":7,
-    "name":"Wolverein",
-    "powers":"Adamentium bones with regeneration",
-    "Rank":"Legend",
-    "img":"./images/wolf.jpg"
-},
-{
-    "id":8,
-    "name":"Hulk",
-    "powers":"Gamma Radiation strength",
-    "Rank":"Legend",
-    "img":"./images/hulk.jpeg"
-},
-{
-    "id":9,
-    "name":"Black Panther",
-    "powers":"Wakanda Tech",
-    "Rank":"Legend",
-    "img":"./images/panther.jpeg"
-},
-{
-    "id":10,
-    "name":"Captain Marvel",
-    "powers":"Cosmic Powers",
-    "Rank":"Legend",
-    "img":"./images/marvel.jpeg"
-}
-
-]
+    "weapons":"Solider & Armour",
+    "Age":40,
+    "planet":"Earth"
+}]
