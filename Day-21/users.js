@@ -5,7 +5,7 @@ const cors=require('cors');
 const mongoose=require('mongoose');
 const jwt=require('jsonwebtoken');
 
-const app=express();
+const router = express.Router();
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -33,14 +33,14 @@ mongoose.connect('mongodb://127.0.0.1:27017/auth_users',{useNewUrlParser:true,us
 
 
 
-app.get('/',(req,res)=>{
+router.get('/',(req,res)=>{
 
     
     res.send(dummyRes);
 })
 
  
-app.post('/users/register',(req,res)=>{
+router.post('/register',(req,res)=>{
 
     let user=req.body;
     
@@ -56,7 +56,7 @@ app.post('/users/register',(req,res)=>{
  
 
 
-app.post('/users/login',async (req,res)=>{
+router.post('/login',async (req,res)=>{
     let userdetails=req.body;
     let count = await usersModel.find(userdetails).countDocuments();
     
@@ -86,7 +86,7 @@ app.post('/users/login',async (req,res)=>{
 })
 
 
-app.get('/users/fetch',verifyToken,(req,res)=>{
+router.get('/fetch',verifyToken,(req,res)=>{
 
 jwt.verify(req.token,"secretkey",(err,userdetails)=>{
     if(err==null){
@@ -133,4 +133,4 @@ function verifyToken(req,res,next){
 
 
 
-app.listen(3000);
+module.exports = router;
