@@ -147,6 +147,7 @@ class Products extends Component {
     return (
       <div className="container main-container">
         <div className="form-group">
+          <hr></hr>
           <input
             type="search"
             placeholder="Search Product"
@@ -219,8 +220,9 @@ class Products extends Component {
             }
           })}
         </div>
-
+        <hr></hr>
         <h2>All products</h2>
+        <hr></hr>
         <div className="row" style={{ marginLeft: "0px", marginTop: "30px" }}>
           {products}
         </div>
