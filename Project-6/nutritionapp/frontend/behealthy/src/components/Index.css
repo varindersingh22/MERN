@@ -1,0 +1,74 @@
+body {
+  background-color: #3b3a3a !important;
+  background-image: url("../assets/bg.jpg");
+  background-attachment: fixed;
+}
+
+.total-cal {
+  text-align: center;
+}
+
+.total-cal h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.search-results {
+  width: 100%;
+  background-color: white;
+}
+
+.result {
+  padding: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: gray;
+  /* border: 0.1px solid lightgray; */
+  box-shadow: 0 0 3px lightgray;
+  transition: 0.3s;
+}
+
+.result:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.card {
+  background-color: rgba(82, 81, 81, 0.7) !important;
+  color: white !important;
+}
+
+.list-group-item {
+  background-color: #525151 !important;
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: #d25d1d !important;
+  border-color: #d25d1d !important;
+}
+
+.in-title {
+  color: #d25d1d !important;
+  font-weight: bold;
+}
+
+nav.bg-light {
+  background-color: #d25d1d !important;
+}
+
+.navbar-brand {
+  color: white !important ;
+  font-weight: bold;
+  font-size: 30px !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+input,
+select {
+  height: 50px !important;
+}
