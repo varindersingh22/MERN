@@ -1,0 +1,157 @@
+.container {
+  width: 50% !important;
+  padding-bottom: 20px;
+}
+
+.row {
+  margin: 0px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.userDetails,
+.searchUser {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: red; */
+  margin-top: 30px;
+  position: relative;
+}
+
+.profilepic,
+.influencers,
+.followers {
+  height: 150px;
+}
+
+.proContent {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.proContent p:nth-child(1) {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.proContent p {
+  margin: 0px !important;
+}
+
+.feedCount {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.feedsContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: green; */
+}
+
+.feed {
+  height: 150px;
+  width: 30%;
+  background-color: gray;
+  margin: 1.66%;
+  overflow: hidden;
+}
+
+/* search page css */
+
+.searchButton {
+  border: none;
+  outline: none;
+}
+
+.username-body {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.username-body .card-title {
+  margin-bottom: 0px !important;
+}
+
+.modal {
+  display: block !important;
+}
+
+.modal-dialog {
+  max-width: 80% !important;
+}
+
+.modal-body {
+  padding: 20px !important;
+}
+
+.search-results {
+  box-shadow: 0 0 5px gray;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 0px !important;
+  position: absolute;
+}
+
+.result {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+  margin: 0px !important;
+  background-color: white;
+}
+
+.result p {
+  margin: 0px !important;
+}
+
+.result:hover {
+  background-color: lightgray;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+.chatM {
+  padding: 10px;
+  background-color: gray;
+  border-radius: 5px;
+
+  clear: both;
+  margin: 2px;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 50%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
