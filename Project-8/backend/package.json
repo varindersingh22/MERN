@@ -1,0 +1,22 @@
+{
+  "name": "netflixbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "movies.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shadow",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "socket.io": "^4.0.1"
+  }
+}
